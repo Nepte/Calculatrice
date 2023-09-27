@@ -1,0 +1,83 @@
+﻿<Application x:Class="Calculatrice.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Calculatrice"
+             StartupUri="MainWindow.xaml">
+	
+	
+    <Application.Resources>
+
+
+		<Style x:Key="Bouton_Gris" TargetType="Button">
+
+            <Setter Property="FontSize" Value="35"></Setter>
+            <Setter Property="BorderBrush" Value="{x:Null}"></Setter>
+            <Setter Property="Margin" Value="10,10,0,0"></Setter>
+            <Setter Property="Background">
+                <Setter.Value>
+                    <ImageBrush ImageSource="C:\Users\Erzen\Desktop\Calculatrice2\Calculatrice\Calculatrice\Bouton.png"/> <!-- Changer sur votre répertoire !-->
+                </Setter.Value>
+            </Setter>
+            <Setter Property="FontWeight" Value="DemiBold"></Setter>
+            
+            
+        </Style>
+
+        <Style x:Key="Bouton_Orange" TargetType="Button">
+
+            <Setter Property="FontSize" Value="35"></Setter>
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="BorderBrush" Value="{x:Null}"></Setter>
+            <Setter Property="Margin" Value="10,10,0,0"></Setter>
+            <Setter Property="Background">
+                <Setter.Value>
+                    <ImageBrush ImageSource="C:\Users\Erzen\Desktop\Calculatrice2\Calculatrice\Calculatrice\Bouton_Orange.png"/> <!-- Changer sur votre répertoire !-->
+                </Setter.Value>
+            </Setter>
+            <Setter Property="FontWeight" Value="DemiBold"></Setter>
+
+        </Style>
+
+
+        <Style x:Key="Bouton_Noir" TargetType="Button">
+
+            <Setter Property="FontSize" Value="35"></Setter>
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="BorderBrush" Value="{x:Null}"></Setter>
+            <Setter Property="Margin" Value="10,10,0,0"></Setter>
+            <Setter Property="Background">
+                <Setter.Value>
+                    <ImageBrush ImageSource="C:\Users\Erzen\Desktop\Calculatrice2\Calculatrice\Calculatrice\Bouton_Noir.png"/> <!-- Changer sur votre répertoire !-->
+                </Setter.Value>
+            </Setter>
+            <Setter Property="FontWeight" Value="DemiBold"></Setter>
+
+        </Style>
+
+        <Style x:Key="Bouton_Allonge" TargetType="Button">
+
+            <Setter Property="FontSize" Value="35"></Setter>
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="BorderBrush" Value="{x:Null}"></Setter>
+            <Setter Property="Margin" Value="10,10,0,0"></Setter>
+            <Setter Property="Background">
+                <Setter.Value>
+                    <ImageBrush ImageSource="C:\Users\Erzen\Desktop\Calculatrice2\Calculatrice\Calculatrice\Bouton_Allonge.png"/> <!-- Changer sur votre répertoire !-->
+                </Setter.Value>
+            </Setter>
+            <Setter Property="FontWeight" Value="DemiBold"></Setter>
+
+        </Style>
+
+        <Style x:Key="Text_Box" TargetType="TextBox">
+
+            <Setter Property="FontSize" Value="60"></Setter>
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="BorderBrush" Value="{x:Null}"></Setter>
+            <Setter Property="Margin" Value="10,10,0,0"></Setter>
+
+        </Style>
+
+
+    </Application.Resources>
+</Application>
